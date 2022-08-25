@@ -1,0 +1,9 @@
+https://opensea.io/rankings?category=new
+https://opensea.io/rankings
+https://opensea.io/rankings?category=collectibles
+https://opensea.io/rankings?category=music
+https://opensea.io/rankings?category=photography-category
+https://opensea.io/rankings?category=sports
+https://opensea.io/rankings?category=trading-cards
+https://opensea.io/rankings?category=utility
+https://opensea.io/rankings?category=virtual-worlds
