@@ -8,18 +8,18 @@ Very barebones scraper i threw together, suggest using proxies.
 
 
 Step 1)
-# This will download/save realtime data collected from all urls found in the cat_urls.txt file
+This will download/save realtime data collected from all urls found in the cat_urls.txt file
 run crawler.py
  
 
 
 
 Step 2)
-# note not sure if i'm just lucky or if opensea doesn't care if u hit this endpoint much, 
-# but i didn't have to use proxies ;v
-# Script will cycle through all names found from step 1
-# hitting this api endpoint
-# https://api.opensea.io/api/v1/collection/<<NAMEHERE>>?force_update=true&format=json
+note not sure if i'm just lucky or if opensea doesn't care if u hit this endpoint much, 
+but i didn't have to use proxies ;v
+Script will cycle through all names found from step 1
+hitting this api endpoint
+https://api.opensea.io/api/v1/collection/<<NAMEHERE>>?force_update=true&format=json
 
 
 run fetch_socials.py
@@ -32,7 +32,7 @@ one file per user (they are really big)
 
 
 Step 3)
-# read data play around ^
+read data play around ^
 run read_testing_disect.py
 
 Random keys of interest found
