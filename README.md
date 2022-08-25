@@ -4,26 +4,30 @@ collects data from opensea.io/rankings
 requirements cloudscraper/bs4
 python version 3.8
 
-Very barebones scraper i threw together, highly suggest using proxies.
+Very barebones scraper i threw together, suggest using proxies.
+
 
 Step 1)
+# This will download/save realtime data collected from all urls found in the cat_urls.txt file
 run crawler.py
-This will download/save realtime data collected from all urls found in the cat_urls.txt file
+ 
 
 
 
 Step 2)
 # note not sure if i'm just lucky or if opensea doesn't care if u hit this endpoint much, 
 # but i didn't have to use proxies ;v
+# Script will cycle through all names found from step 1
+# hitting this api endpoint
+# https://api.opensea.io/api/v1/collection/<<NAMEHERE>>?force_update=true&format=json
+
 
 run fetch_socials.py
 
-Script will cycle through all names found from step 1
-# hitting this api endpoint
-https://api.opensea.io/api/v1/collection/<<NAMEHERE>>?force_update=true&format=json
+ 
 
 Saves all data into testing/ folder 
-# one file per user (they are really big)
+one file per user (they are really big)
 
 
 
